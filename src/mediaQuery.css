@@ -1,0 +1,35 @@
+@media only screen and (max-width: 991px) 
+{
+    .home-box-wrapper{
+        height:100%;
+    }
+    .home-chart-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100%;
+        width:100%;
+    }
+    .product-left {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .dashboard-content {
+        overflow: auto
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    .login-container{
+        width:100%;
+        height:100%;
+    }
+    .login-img{
+        display: none;
+    }
+    .dashboard-content {
+        height:100%;
+        width:100%;
+    }
+}

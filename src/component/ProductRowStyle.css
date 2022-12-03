@@ -1,0 +1,32 @@
+.product-action{
+    flex-direction: column;
+    padding:7px;
+}
+.product-delete,.product-update,.product-buy{
+    width:80px;
+    height:30px;
+    margin:7px;
+}
+.product-delete{
+    background-color: rgb(195, 8, 8);
+}
+.product-update{
+    background-color: rgb(28, 28, 235);
+}
+
+:is(.product-delete,.product-update):hover{
+    border:0px;
+}
+.product-delete:hover{
+    background-color: rgb(240, 40, 40);
+}
+.product-update:hover{
+    background-color: rgb(72, 72, 251);
+}
+.product-buy{
+    background-color: orangered;
+}
+.product-buy:hover{
+    background-color: rgb(243, 98, 46);
+    border:0;
+}

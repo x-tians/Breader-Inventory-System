@@ -1,0 +1,90 @@
+.dashboard-header,.header{
+ align-items: center;
+}
+.dashboard-header{
+    background-color: #eec07b80;
+}
+.dashboard-header{
+    grid-template-columns: auto 1fr 100px;
+}
+.dashboard-user strong{
+    font-size: medium;
+    font-weight: 600;
+}
+.dashboard-user h3{
+    padding-left:17px;
+    font-size: small;
+    font-weight: 200;
+}
+.log p{
+    padding-left:17px;
+    font-size: medium;
+    font-weight: 200;
+}
+.logout h2:hover,.user-log:hover,p{
+    cursor: pointer;
+}
+p:hover,.user-logout-footer:hover{
+    background-color: #f3f1ed
+}
+
+.user-logout,.user-logout-active{
+    position: absolute;
+    margin-top:160px;
+    display: grid;
+    grid-template-rows: 100px 50px;
+    width:150px;
+    background-color: #f6dfbd;
+    z-index: 1;
+    border-radius: 3px 3px 0 0;
+    margin-right: 100px;
+}
+.user-logout{
+    display: none;
+    height:0;
+}
+.user-logout-active{
+    
+    height:100px;
+}
+.user-log{
+    position: relative;
+    z-index: 2;
+}
+.user-logout-footer{
+    height:40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(213, 210, 210);
+    border-radius: 0 0 3px 3px;
+}
+.user-logout-footer div{
+    padding:7px;
+}
+.log{
+    height:25px;
+}
+.log p{
+    padding:10px;
+    font-weight: 100;
+}
+.log:hover{
+    cursor: pointer;
+}
+.user-logout-header{
+    padding-top:7px;
+}
+.user-logout-header p{
+    padding:10px;
+}
+
+.user-log::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}

@@ -1,0 +1,100 @@
+.Dashboard-left-section{
+    width:50px;
+    transition: width 0.2s ease-in-out;
+}
+.Dashboard-left-section-active,.Dashboard-left-section{
+    background-color: #eed1a7;
+    border-right: 1px solid orange;
+    grid-template-rows: 50px 100px 200px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.Dashboard-left-section-active{
+    width:250px;
+    transition: width 0.1s ease-in-out;
+}
+
+ul li{
+    align-items: center;
+}
+ul{
+    flex-direction: column;
+}
+.burger-menu{
+    width:40px;
+    height:40px;
+    flex-direction: column;
+}
+.burger-menu:hover div{
+    cursor: pointer;
+    background-color: orange;
+}
+
+.burger-menu div{
+    margin-top:3px;
+    width:60%;
+    height:3px;
+    background-color: black;
+    border: 1px solid black;
+}
+.burger-wrapper{
+    width:100%;
+}
+
+.left-menu a{
+    font-weight: 400;
+    font-size: medium;
+    text-decoration: none;
+    color:black;
+}
+ a .link{
+    padding-left:7px;
+}
+
+.left-menu-active a{
+    font-weight: 400;
+    font-size: medium;
+    text-decoration: none;
+    color:black;
+}
+.left-menu-active .link{
+    width:0px;
+}
+.left-menu a:hover,.left-menu-active a:hover{
+    background-color: #f3ce97;
+    border-bottom: 2px solid orange;
+    color:orange;
+    cursor: pointer;
+}
+
+.left-menu-active {
+    width:100%;
+}
+
+.left-menu-active a div{
+    padding:7px;
+    width:50px;
+    display: flex;
+    align-items: center;
+}
+.left-menu a div{
+    padding:7px;
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    display: flex;
+    flex-direction: row;
+}
+.menu-wrapper-active .link{
+
+    display: none;
+}
+.menu-wrapper-active,.left-menu-active li a{
+    width:50px;
+}
+.menu-active a,.menu-active{
+    background-color: #f3ce97;
+    color:orange;
+}

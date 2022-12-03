@@ -1,0 +1,52 @@
+.product-container{
+    grid-template-rows: 80px 1fr;
+}
+.product-left-search{
+    width: 400px;
+}
+.product-left-search input{
+    text-align: left;
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid orange;
+}
+.product-left-search input:focus {
+    outline:none!important;
+}
+
+.product-left{
+    grid-template-columns: 1fr 400px 33px;
+    border-top:1px solid orange;
+    padding:7px;
+}
+.product-left-table-wrapper{
+    height:600px;
+    padding:7px;
+    overflow: auto;
+
+}
+.product-left tr td button{
+    font-size: smaller;
+    font-weight: 200;
+    padding:3px;
+}
+table thead tr th{
+    background-color: #f7b63f;
+    height:36px;
+}
+
+table{
+    border-collapse: collapse;
+    overflow: auto;
+}
+tr{
+    border-bottom:  1px solid orange;
+}
+td form input{
+    width:120px;
+}
+.icon-con{
+    display: flex;
+    justify-content: center;
+    gap:3px;
+}

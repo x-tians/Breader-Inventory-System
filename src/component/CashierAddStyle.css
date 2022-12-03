@@ -1,0 +1,38 @@
+.cashier-total-wrapper{
+    flex-direction: column;
+}
+.add-product-table{
+    border:1px solid orange;
+    height:350px;
+    overflow: auto;
+}
+.cashier-table-total tr td{
+    font-size: small;
+    font-weight: 100;
+}
+.cashier-action{
+    width:50px;
+}
+.cashier-table-total tr{
+    border-bottom: 1px solid orange;
+    height:30px;
+}
+.remove,.cashier-table-total button{
+    background-color: darkred;
+    border-radius: 3px;
+    font-weight: 100;
+    border:0;
+    color:rgb(241, 240, 240);
+}
+.remove:hover{
+    cursor: pointer;
+    background-color: rgb(232, 25, 25);
+    
+}
+.add-product-wrapper{
+    flex-direction: column;
+}
+.cashier-table-total th{
+    font-weight: 600;
+    font-size: small;
+}
